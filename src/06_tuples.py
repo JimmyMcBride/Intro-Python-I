@@ -39,7 +39,7 @@ t = (1, 2, 5, 7, 99)
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
-u = ("U-2",)  # What needs to be added to make this work?
+u = (1,)  # What needs to be added to make this work?
 tu = type(u)
 print(f"The type of 'u' is: {tu}")
 print_tuple(u)
